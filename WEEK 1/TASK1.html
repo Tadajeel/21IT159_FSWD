@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+<body>
+    <h3>Task 1</h3>
+    <button onclick="displayVariables()">Display Variables</button>
+    <div id="Semester 5"></div>
+</body>
+<script>
+    function displayVariables(){
+        var a = "Full Stack Web Development";
+        let  b = "2023";
+        const c = "IT-5";
+        var outputElement = document.getElementById("Semester 5");
+        outputElement.innerHTML = "Using Var : "+ a + "<br>";
+        outputElement.innerHTML += "Using Let : "+ b + "<br>";
+        outputElement.innerHTML += "Using Const : "+ c + "<br>";
+    }
+</script>
+</html>
